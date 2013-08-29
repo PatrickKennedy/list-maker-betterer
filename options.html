@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>List Maker Betterer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      label {
+        display: block;
+      }
+      textarea {
+        font-family: monospace;
+      }
+      .message {
+        height: 20px;
+        background: #eee;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>List Maker Betterer Instructions</h3>
+
+    <ol>
+      <li>Paste some existing doc state into the box</li>
+      <li>Navigate to some doc</li>
+      <li>Hey presto! Bullet Lists Made Betterer!</li>
+      <li>To edit, just click the browser action icon <img src="icon.png" /></li>
+    </ol>
+
+    <textarea name="style_url" id="style_url" cols=80 rows=24></textarea>
+
+    <br/>
+    <button class="submit">Save</button>
+    <div class="message"></div>
+
+    <script src="options.js"></script>
+  </body>
+</html>
